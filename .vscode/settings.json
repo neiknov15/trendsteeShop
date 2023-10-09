@@ -1,3 +1,21 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "workbench.colorTheme": "Gitkraken Dark",
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.fontSize": 12,
+    "indentRainbow.includedLanguages": [],
+    "indentRainbow.updateDelay": 100,
+    "indentRainbow.colors": [
+        "rgba(0, 255, 0 , 0.07)",// Lime
+        "rgba(255, 255, 0, 0.07)",// Yellow
+        "rgba(0, 100, 0, 0.07)",// Dark Green
+        "rgba(255, 165, 0, 0.07)",// Orange
+        "rgba(0, 0, 128, 0.07)",// Navy Blue
+        "rgba(177, 24, 35, 0.07)",// Red
+        "rgba(63, 68, 68, 0.07)",// Dark Heather
+        "rgba(128, 0, 128, 0.07)",// Purple
+        "rgba(64, 197, 117, 0.07)"//
+        ]
 }
