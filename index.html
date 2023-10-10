@@ -47,11 +47,48 @@
                             </li>
                         </ul>
                         <ul class="header__navbar-list">
-                            <li class="header__navbar-item">
+                            <li class="header__navbar-item header__navbar-item--has-notify">
                                 <a href="" class="header__navbar-item-link">
                                     <i class="header__navbar-icon fa-solid fa-bell"></i>
                                     Thông báo
                                 </a>
+                                <div class="header__notify">
+                                    <header class="header__notify-header">
+                                        <h3>Thông báo mới nhận</h3>
+                                    </header>
+                                    <ul class="header__notify-list">
+                                        <li class="header__notify-item header__notify-item--viewed">
+                                            <a href="" class="header__notify-link">
+                                                <img src="./assets/img/Mandalorian.jpg" alt="Mandalorian" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">The Mandalorian</span>
+                                                    <span class="header__notify-description">Mercenario high training Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem est ex rerum dolores. In dignissimos explicabo nulla corporis?</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notify-item header__notify-item--viewed">
+                                            <a href="" class="header__notify-link">
+                                                <img src="./assets/img/CyborgHead.jpg" alt="CyborgHead" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">The CyborgHead</span>
+                                                    <span class="header__notify-description">Cyborg Head</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notify-item">
+                                            <a href="" class="header__notify-link">
+                                                <img src="./assets/img/Zoro.jpg" alt="Zoro" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">Zoro Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem possimus earum tempora! Lorem ipsum dolor sit amet.</span>
+                                                    <span class="header__notify-description">The Pirate Hunter Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, minus voluptate sunt quibusdam ullam animi maiores corporis rem, sit quae itaque doloribus magni reiciendis exercitationem obcaecati! Amet praesentium dolorum voluptatem.</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <footer class="header__notify-footer">
+                                        <a href="" class="header__notify-footer-btn">See All</a>
+                                    </footer>
+                                </div>
                             </li>
                             <li class="header__navbar-item">
                                 <a href="" class="header__navbar-item-link">
@@ -71,6 +108,56 @@
             </div>
 
             <footer class="footer"></footer>
+        </div>
+
+        <!-- Modal layout -->
+        <div class="modal">
+            <div class="modal__overlay"></div>
+
+            <div class="modal__body">
+                <!-- Authen Form -->
+                <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Sign Up</h3>
+                            <span class="auth-form__switch-btn">Sign In</span>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Your Email">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Your Password">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Repeat your Password">
+                            </div>
+                        </div>
+                        <div class="auth-form__aside">
+                            <p class="auth-form__policy-text">
+                                By continuing, you agree to our
+                                <a href="" class="auth-form__text-link">Terms of Service</a> and acknowledge you've read our
+                                <a href="" class="auth-form__text-link">Privacy Policy</a>.
+                            </p>
+                        </div>
+                        <div class="auth-form__controls">
+                            <button class="btn">Back</button>
+                            <button class="btn btn--primary">Sign Up</button>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="btn btn--with-icon">
+                            <i class="fa-brands fa-facebook"></i>
+                            Continue with Facebook
+                        </a>
+                        <a href="" class="btn btn--with-icon">
+                            <i class="fa-brands fa-google"></i>
+                            Continue with Google
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
