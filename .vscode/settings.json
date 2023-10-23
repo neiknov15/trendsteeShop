@@ -2,7 +2,7 @@
     "liveServer.settings.port": 5501,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1000,
-    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.colorTheme": "Solarized Dark",
     "editor.fontFamily": "Consolas, 'Courier New', monospace",
     "editor.fontSize": 12,
     "indentRainbow.includedLanguages": [],

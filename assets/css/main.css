@@ -175,7 +175,7 @@
     color: var(--white-color);
 }
 
-/* Header QR code */
+/* Header QR */
 .header__qr {
     width: 186px;
     background-color: var(--white-color);
@@ -238,6 +238,7 @@
     display: none;
 }
 
+/* Create sharp corners in the notification panel */
 .header__notify::before {
     content: "";
     border-width: 20px 27px;
@@ -248,6 +249,7 @@
     top: -28px;
 }
 
+/* Create a hover layer in the notification panel */
 .header__notify::after {
     content: "";
     display: block;
@@ -256,7 +258,6 @@
     top: -16px;
     width: 90px;
     height: 20px;
-    /* background-color: var(--bottom-header-color); */
 }
 
 @keyframes headerNotifyGrowth {
